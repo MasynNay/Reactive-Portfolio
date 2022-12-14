@@ -25,9 +25,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-# Mock-Up
-The following animation shows the web application's appearance and functionality:
-
 <div>
     <img src="Module-2-Reactive-Portfolio\assets\css\images\02-advanced-css-homework-demo.gif" width="400px"/> 
 </div>
