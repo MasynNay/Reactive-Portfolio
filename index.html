@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masyn Nay</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/a85b79b702.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Header / About Me-->
+<div id="header">
+    <div class="container">
+      <nav>
+        <img src="./assets/css/images/logo.png" alt="logo">
+         <ul id="sidemenu">
+            <li><a href="#header">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://drive.google.com/file/d/1RO7BcxWd78oZlbak3p64EhKNBSSh5D7N/view?usp=share_link">Resume</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+      <h1> Welcome To My Portfolio!</h1><br>
+      <p>I am currently enrolled in a coding bootcamp at the University of Utah,<br>I would like to use the skills
+        that I have learned from this bootcamp and<br> apply them in a career as a full-time web developer. <br /> <br />
+        In my spare time, I enjoy spending quality time with my family, building<br> computers, playing video games, snowbording, and watching television shows. <br /></p>
+      </div>
+  </div>
+</div>
+<!--Work-->
+<div id ="work">
+  <div class="container">
+    <h1 class="sub-title">Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="./assets/css/images/work-1.png" alt="MGTumbling Website"></a>
+        <div class="layer">
+          <h3>MGTumbling</h3>
+          <p>This is the first website I have ever created. MGTumbling's website was built using WIX.</p>
+          <a href="https://www.mgtumbling.net"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/css/images/work-2.png" alt="Horiseon Code Refactor"></a>
+        <div class="layer">
+          <h3>Horiseon Code Refactor</h3>
+          <p>This is the week 1 module from the coding bootcamp. Horiseon Code Refactor.</p>
+          <a href="https://masynnay.github.io/Module-1-Code-Refactor/"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+      <div class="work">
+        <img src="./assets/css/images/work-3.png" alt="Placeholder 3"></a>
+        <div class="layer">
+          <h3>Placeholder #3</h3>
+          <p>Placeholder 3.</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/css/images/work-3.png" alt="Placeholder 4"></a>
+        <div class="layer">
+          <h3>Placeholder #4</h3>
+          <p>Placeholder 4.</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./assets/css/images/work-3.png" alt="Placeholder 5"></a>
+        <div class="layer">
+          <h3>Placeholder #5</h3>
+          <p>Placeholder 5.</p>
+        </div>
+      </div>
+      <div class="work">
+       <img src="./assets/css/images/work-3.png" alt="Placeholder 6"></a>
+        <div class="layer">
+          <h3>Placeholder #6</h3>
+          <p>Placeholder 6.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Conctact-->
+  <div id="contact">
+    <div class="row">
+        <div class="contact">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>Masynnay33@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>(678) 999-8212</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/masyn-nay-290225201/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/MasynNay"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://twitter.com/HokagNay"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.instagram.com/naycreates17/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Made with <i class="fa-solid fa-heart"></i> by Masyn.</p>
+  </div>
+</div>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right ="-200px";
+  }
+
+</script>
+
+</body>
+</html>
