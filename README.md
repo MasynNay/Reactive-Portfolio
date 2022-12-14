@@ -32,6 +32,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 # Technologies used
 HTML
 CSS
+JS
 
 # Link to deployed application
 https://masynnay.github.io/Module-2-Reactive-Portfolio/
