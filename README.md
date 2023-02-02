@@ -31,4 +31,4 @@ CSS
 JS
 
 # Link to deployed application
-https://masynnay.github.io/Module-2-Reactive-Portfolio/
+https://masynnay.github.io/Reactive-Portfolio/
