@@ -2,120 +2,232 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masyn Nay</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/a85b79b702.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masyn Nay's Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
+
 <body>
-<!--Header / About Me-->
-<div id="header">
-    <div class="container">
-      <nav>
-        <img src="./assets/css/images/logo.png" alt="logo">
-         <ul id="sidemenu">
-            <li><a href="#header">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="https://drive.google.com/file/d/1RO7BcxWd78oZlbak3p64EhKNBSSh5D7N/view?usp=share_link">Resume</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-        </ul>
-        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-      </nav>
-      <div class="header-text">
-      <h1> Welcome To My Portfolio!</h1><br>
-      <p>I am currently enrolled in a coding bootcamp at the University of Utah,<br>I would like to use the skills
-        that I have learned from this bootcamp and<br> apply them in a career as a full-time web developer. <br /> <br />
-        In my spare time, I enjoy spending quality time with my family, building<br> computers, playing video games, snowbording, and watching television shows. <br /></p>
-      </div>
-  </div>
-</div>
-<!--Work-->
-<div id ="work">
-  <div class="container">
-    <h1 class="sub-title">Work</h1>
-    <div class="work-list">
-      <div class="work">
-        <img src="./assets/css/images/work-1.png" alt="MGTumbling Website"></a>
-        <div class="layer">
-          <h3>MGTumbling</h3>
-          <p>This is the first website I have ever created. MGTumbling's website was built using WIX.</p>
-          <a href="https://www.mgtumbling.net"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-      <div class="work">
-        <img src="./assets/css/images/work-2.png" alt="Horiseon Code Refactor"></a>
-        <div class="layer">
-          <h3>Horiseon Code Refactor</h3>
-          <p>This is the week 1 module from the coding bootcamp. Horiseon Code Refactor.</p>
-          <a href="https://masynnay.github.io/Module-1-Code-Refactor/"><i class="fas fa-external-link-alt"></i></a>
-      </div>
+  
+  <!-- Navbar  Section Start -->
+  <header>
+    <a href="#" class="logo">Masyn <span> Nay</span></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://drive.google.com/file/d/1rduqRv0AcxA1143nGSjdqpL-L5y-JBUE/view?usp=share_link">Resume</a></li>
+      <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+  </header>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="social">
+      <a href="https://www.linkedin.com/in/masyn-nay-290225201/"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/MasynNay"><i class='bx bxl-github'></i></a>
+      <a href="https://www.instagram.com/naycreates17/?hl=en"><i class='bx bxl-instagram'></i></a>
+      <a href="https://twitter.com/HokagNay"><i class='bx bxl-twitter'></i></a>
     </div>
-      <div class="work">
-        <img src="./assets/css/images/work-4.png" alt="MixStream"></a>
-        <div class="layer">
-          <h3>MixStream</h3>
-          <p>Our first group project using server-side api's. Search for any movie or show you would like and see available streaming services for it.</p>
-          <a href="https://masynnay.github.io/MixStream/"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-      <div class="work">
-        <img src="./assets/css/images/work-3.png" alt="Placeholder 4"></a>
-        <div class="layer">
-          <h3>Placeholder #4</h3>
-          <p>Placeholder 4.</p>
-        </div>
-      </div>
-      <div class="work">
-        <img src="./assets/css/images/work-3.png" alt="Placeholder 5"></a>
-        <div class="layer">
-          <h3>Placeholder #5</h3>
-          <p>Placeholder 5.</p>
-        </div>
-      </div>
-      <div class="work">
-       <img src="./assets/css/images/work-3.png" alt="Placeholder 6"></a>
-        <div class="layer">
-          <h3>Placeholder #6</h3>
-          <p>Placeholder 6.</p>
-        </div>
-      </div>
+    <div class="home-img">
+      <img src="./assets/images/main.png" alt="">
     </div>
-  </div>
-  <!--Conctact-->
-  <div id="contact">
-    <div class="row">
-        <div class="contact">
-          <h1 class="sub-title">Contact Me</h1>
-          <p><i class="fa-solid fa-paper-plane"></i>Masynnay33@gmail.com</p>
-          <p><i class="fa-solid fa-square-phone"></i>(678) 999-8212</p>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/masyn-nay-290225201/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/MasynNay"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://twitter.com/HokagNay"><i class="fa-brands fa-square-twitter"></i></a>
-            <a href="https://www.instagram.com/naycreates17/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+    <div class="home-text">
+      <h1>I'm <span class="auto-type"></span></h1>
+      <p>Thank you for looking at my portfolio <br> I hope we get an opportunity to work together.</p>
+      <a href="#contact" class="btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>About Me</h2>
+      <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+      <div class="about-img">
+        <img src="./assets/images/about.png" alt="Masyn's Profile Image">
+      </div>
+      <div class="about-text">
+        <p>
+          I am currently enrolled in a coding bootcamp at the University of Utah,
+          I would like to use the skills that I have learned from this bootcamp and
+          apply them in a career as a full-time web developer.
+          
+          In my spare time, I enjoy spending quality time with my family, building
+          computers, coding, graphic design, playing video games, snowboarding and watching television shows.</p>
+        <div class="information">
+          <div class="info-box">
+            <i class='bx bxs-user'></i>
+            <span>Masyn Nay</span>
+          </div>
+          <div class="info-box">
+            <i class='bx bxs-phone'></i>
+            <span>(801) 941-3063</span>
+          </div>
+          <div class="info-box">
+            <i class='bx bxs-envelope'></i>
+            <span>Masynnay33@gmail.com</span>
           </div>
         </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
     </div>
-  </div>
-  <div class="copyright">
-    <p>Made with <i class="fa-solid fa-heart"></i> by Masyn.</p>
-  </div>
-</div>
+  </section>
 
-<script>
-  var sidemenu = document.getElementById("sidemenu");
+  <!-- Skills Section Start -->
+  <section class="skills" id="skills">
+    <div class="heading">
+      <h2>Skills</h2>
+      <span>My Skills</span>
+    </div>
+    <div class="services-content">
+      <div class="services-box">
+        <i class='bx bxl-html5'></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="services-box">
+        <i class='bx bx-pencil'></i>
+        <h3>CSS</h3>
+      </div>
+      <div class="services-box">
+        <i class='bx bx-brush'></i>
+        <h3>Javascript</h3>
+      </div>
+    </div>
+  </section>
 
-  function openmenu(){
-    sidemenu.style.right = "0";
-  }
-  function closemenu(){
-    sidemenu.style.right ="-200px";
-  }
+  <!--Work-->
+  <div id="work">
+    <div class="container">
+      <h1 class="sub-title">Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="./assets/images/work-1.png" alt="MGTumbling Website"></a>
+          <div class="layer">
+            <h3>MGTumbling</h3>
+            <p>This is the first website I have ever created. MGTumbling's website was built using WIX.</p>
+            <a href="https://www.mgtumbling.net"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./assets/images/work-2.png" alt="Horiseon Code Refactor"></a>
+          <div class="layer">
+            <h3>Horiseon Code Refactor</h3>
+            <p>This is the week 1 module from the coding bootcamp. Horiseon Code Refactor.</p>
+            <a href="https://masynnay.github.io/Module-1-Code-Refactor/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./assets/images/work-3.png" alt="MixStream"></a>
+          <div class="layer">
+            <h3>MixStream</h3>
+            <p>Our first group project using server-side api's. Search for any movie or show you would like and see
+              available streaming services for it.</p>
+            <a href="https://masynnay.github.io/MixStream/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./assets/images/work-placeholder.png" alt="Placeholder 4"></a>
+          <div class="layer">
+            <h3>Placeholder #4</h3>
+            <p>Placeholder 4.</p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./assets/images/work-placeholder.png" alt="Placeholder 5"></a>
+          <div class="layer">
+            <h3>Placeholder #5</h3>
+            <p>Placeholder 5.</p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./assets/images/work-placeholder.png" alt="Placeholder 6"></a>
+          <div class="layer">
+            <h3>Placeholder #6</h3>
+            <p>Placeholder 6.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</script>
+    <!-- Services Section Start -->
+    <section class="services" id="services">
+      <div class="heading">
+        <h2>Services</h2>
+        <span>My Services</span>
+      </div>
+      <div class="services-content">
+        <div class="services-box">
+          <i class='bx bx-code-alt'></i>
+          <h3>Web Development</h3>
+        </div>
+        <div class="services-box">
+          <i class='bx bx-pencil'></i>
+          <h3>Graphic Design</h3>
+        </div>
+        <div class="services-box">
+          <i class='bx bx-brush'></i>
+          <h3>UI/UX Design</h3>
+        </div>
+        <div class="services-box">
+          <i class='bx bxl-apple'></i>
+          <h3>App Development</h3>
+        </div>
+      </div>
+    </section>
 
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>Contact</h2>
+        <span>Contact Me</span>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Your Name">
+          <input type="email" name="" id="" placeholder="Your Email">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+          <input type="button" value="Send" class="contact-button">
+        </form>
+      </div>
+    </section>
+
+    <div class="footer">
+      <h2>Follow Me</h2>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/masyn-nay-290225201/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/MasynNay"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/naycreates17/?hl=en"><i class='bx bxl-instagram'></i></a>
+        <a href="https://twitter.com/HokagNay"><i class='bx bxl-twitter'></i></a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      Made with ❤️ by Masyn Nay</p>
+    </div>
+
+    <!-- Javascript -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed (".auto-type", {
+        strings: ["Masyn Nay", "A Coder", "A Graphic Designer", "An App Developer", "An IT Specialist"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+    </script>
+    <script src="https://kit.fontawesome.com/a85b79b702.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
