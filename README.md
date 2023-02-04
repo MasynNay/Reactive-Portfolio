@@ -30,5 +30,8 @@ HTML
 CSS
 JS
 
+# Application Demonstration
+![](./assets/images/demo.png)
+
 # Link to deployed application
 https://masynnay.github.io/Reactive-Portfolio/
