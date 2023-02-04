@@ -600,8 +600,8 @@ form textarea {
 .layer{
   width: 100%;
   height: 0;
-  color: #080808;
-  background:linear-gradient(rgba(53, 53, 53, 0.9),#dfee8c);
+  color: white;
+  background:linear-gradient(#230e0d,#873533);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -623,7 +623,7 @@ form textarea {
 }
 .layer a{
   margin-top: 20px;
-  color: #dfee8c;
+  color: #a3403e;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
