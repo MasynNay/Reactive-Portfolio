@@ -13,10 +13,10 @@
 }
 
 :root {
-  --main-color: #a3403e;
-  --bg-color: #f1dbdb;
+  --main-color: #007e2d;
+  --bg-color: #cbffcf;
   --text-color: black;
-  --hover: #643036;
+  --hover: #1db356;
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
@@ -28,7 +28,7 @@ section {
 
 body.active {
   --text-color: #fff;
-  --bg-color: #150808;
+  --bg-color: #4fc068;
 }
 
 body {
@@ -51,7 +51,7 @@ body {
 
 .heading span {
   font-size: var(--p-font);
-  color: #a3403e;
+  color: #007e2d;
 }
 
 header {
@@ -83,7 +83,7 @@ header.shadow {
 .logo span {
   font-size: 1.61rem;
   font-weight: 600;
-  color: #a3403e;
+  color: #007e2d;
 }
 
 .navbar {
@@ -175,7 +175,7 @@ header.shadow {
 }
 
 .btn:hover {
-  background: var(--hover);
+  background-color: --secondary-color;
 }
 
 
@@ -187,7 +187,7 @@ header.shadow {
 }
 
 .about-img img {
-  width: 80%;
+  width: 70%;
   border-radius: 0.5rem;
 }
 
@@ -240,7 +240,7 @@ header.shadow {
   width: 100%;
   height: 0;
   color: white;
-  background:linear-gradient(#230e0d,#873533);
+  background:linear-gradient(#007e2d,#1db356);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -262,7 +262,7 @@ header.shadow {
 }
 .layer a{
   margin-top: 20px;
-  color: #a3403e;
+  color: #1db356;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -362,7 +362,7 @@ span {
 }
 
 .services-box:hover {
-  background-color: #d69594;
+  background-color: #4fc068;
 }
 
 .services-box h3 {
@@ -382,7 +382,7 @@ span {
 }
 
 .services-box:hover .bx {
-  color: #5c2423;
+  color: #cbffcf;
 }
 
 .services-box a {
@@ -414,7 +414,7 @@ textarea {
   width: 100%;
   border: none;
   outline: none;
-  background: #e7bfbf;
+  background: #1db356;
   margin-bottom: 1rem;
   color: var(--text-color);
 }
@@ -432,7 +432,7 @@ form textarea {
 .contact-button {
   width: 160px;
   cursor: pointer;
-  background: #a3403e;
+  background: #1db356;
   color: #fff;
   justify-content: center;
   text-transform: uppercase;
@@ -458,12 +458,12 @@ form textarea {
 }
 
 .footer-social a i {
-  color: #a3403e;
+  color: #cbffcf;
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
   line-height: 40px;
-  background-color: #fff;
+  background-color: #1db356;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -601,7 +601,7 @@ form textarea {
   width: 100%;
   height: 0;
   color: white;
-  background:linear-gradient(#230e0d,#873533);
+  background:linear-gradient(#007e2d,#1db356);
   border-radius: 10px;
   position: absolute;
   left: 0;
